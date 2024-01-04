@@ -2,16 +2,34 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
     padding: 20px;
-    text-align: center;
 }
 
-h1 {
-    margin-bottom: 10px;
+.menu-bar {
+    background-color: black; /* Set menu bar background color to black */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-button {
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+    color: white; /* Sets the color of "Everything" to white */
+    font-size: 24px; /* Increase font size */
+    line-height: 1.2;
+    text-align: center; /* Center align text */
+}
+
+.sucks {
+    color: #ff3131; /* Set text color of "Sucks." to red */
+}
+
+.lets-fix-it {
+    color: #5271ff; /* Set color of "Let's Fix It." to blue */
 }
