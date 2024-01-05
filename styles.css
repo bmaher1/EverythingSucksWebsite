@@ -33,3 +33,25 @@ header {
 .lets-fix-it {
     color: #5271ff; /* Set color of "Let's Fix It." to blue */
 }
+
+.cta-banner {
+    background-color: #5271ff; /* Set background color to blue */
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.cta-banner h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.signup-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5271ff; /* Set button text color to blue */
+    background-color: white; /* Set button background color to white */
+    border-radius: 5px;
+}
